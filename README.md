@@ -8,4 +8,4 @@ Stack of technologies:
 
 used architecture: MVVM
 
-<!--![](https://github.com/TopIvanAbramov/LandscapeApp/blob/2417cbd874f7e6fffed6b358908669a666518cc8/AppPreview.png)-->
+![](https://github.com/TopIvanAbramov/Prodo/blob/d4707fa01faa59f725123ac4a62fdd44845415c0/AppPreview.png)
