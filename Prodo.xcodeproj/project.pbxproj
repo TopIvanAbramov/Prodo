@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FD07CA2828247EEA00BBCDFF /* WatchTaskListSample Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FD07CA2728247EEA00BBCDFF /* WatchTaskListSample Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FD07CA2828247EEA00BBCDFF /* Prodo.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FD07CA2728247EEA00BBCDFF /* Prodo.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		FD07CA2D28247EEA00BBCDFF /* WatchTaskListSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD07CA2C28247EEA00BBCDFF /* WatchTaskListSampleApp.swift */; };
 		FD07CA2F28247EEA00BBCDFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD07CA2E28247EEA00BBCDFF /* ContentView.swift */; };
 		FD07CA3128247EEA00BBCDFF /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD07CA3028247EEA00BBCDFF /* ComplicationController.swift */; };
@@ -44,7 +44,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				FD07CA2828247EEA00BBCDFF /* WatchTaskListSample Watch App.app in Embed Watch Content */,
+				FD07CA2828247EEA00BBCDFF /* Prodo.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,11 +52,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		939A8793147B4BC60A918083 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		B24433A905571E0B80FBE856 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
-		C5CE92A0A0E1235C7F094389 /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
-		FD07CA2128247EEA00BBCDFF /* WatchTaskListSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchTaskListSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD07CA2728247EEA00BBCDFF /* WatchTaskListSample Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchTaskListSample Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3CF42BE292A933B006A6DC5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FD07CA2128247EEA00BBCDFF /* Prodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD07CA2728247EEA00BBCDFF /* Prodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD07CA2C28247EEA00BBCDFF /* WatchTaskListSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchTaskListSampleApp.swift; sourceTree = "<group>"; };
 		FD07CA2E28247EEA00BBCDFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FD07CA3028247EEA00BBCDFF /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
@@ -87,39 +85,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		23687A8834BACB9E016B6B3B /* Configuration */ = {
-			isa = PBXGroup;
-			children = (
-				C5CE92A0A0E1235C7F094389 /* SampleCode.xcconfig */,
-			);
-			name = Configuration;
-			sourceTree = "<group>";
-		};
-		CBCC2BC273D1D0A9725CDCE2 /* LICENSE */ = {
-			isa = PBXGroup;
-			children = (
-				B24433A905571E0B80FBE856 /* LICENSE.txt */,
-			);
-			name = LICENSE;
-			path = LICENSE;
-			sourceTree = "<group>";
-		};
 		FD07CA1A28247EE900BBCDFF = {
 			isa = PBXGroup;
 			children = (
-				939A8793147B4BC60A918083 /* README.md */,
+				F3CF42BE292A933B006A6DC5 /* README.md */,
 				FD07CA2B28247EEA00BBCDFF /* WatchTaskListSample */,
 				FD07CA2228247EEA00BBCDFF /* Products */,
-				23687A8834BACB9E016B6B3B /* Configuration */,
-				CBCC2BC273D1D0A9725CDCE2 /* LICENSE */,
 			);
 			sourceTree = "<group>";
 		};
 		FD07CA2228247EEA00BBCDFF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FD07CA2128247EEA00BBCDFF /* WatchTaskListSample.app */,
-				FD07CA2728247EEA00BBCDFF /* WatchTaskListSample Watch App.app */,
+				FD07CA2128247EEA00BBCDFF /* Prodo.app */,
+				FD07CA2728247EEA00BBCDFF /* Prodo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -183,9 +162,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FD07CA2028247EEA00BBCDFF /* WatchTaskListSample */ = {
+		FD07CA2028247EEA00BBCDFF /* Prodo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD07CA4228247EEE00BBCDFF /* Build configuration list for PBXNativeTarget "WatchTaskListSample" */;
+			buildConfigurationList = FD07CA4228247EEE00BBCDFF /* Build configuration list for PBXNativeTarget "Prodo" */;
 			buildPhases = (
 				FD07CA1F28247EEA00BBCDFF /* Resources */,
 				FD07CA4128247EEE00BBCDFF /* Embed Watch Content */,
@@ -195,14 +174,14 @@
 			dependencies = (
 				FD07CA2A28247EEA00BBCDFF /* PBXTargetDependency */,
 			);
-			name = WatchTaskListSample;
+			name = Prodo;
 			productName = "WatchTaskListSample Companion";
-			productReference = FD07CA2128247EEA00BBCDFF /* WatchTaskListSample.app */;
+			productReference = FD07CA2128247EEA00BBCDFF /* Prodo.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
-		FD07CA2628247EEA00BBCDFF /* WatchTaskListSample Watch App */ = {
+		FD07CA2628247EEA00BBCDFF /* Prodo Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD07CA3E28247EEE00BBCDFF /* Build configuration list for PBXNativeTarget "WatchTaskListSample Watch App" */;
+			buildConfigurationList = FD07CA3E28247EEE00BBCDFF /* Build configuration list for PBXNativeTarget "Prodo Watch App" */;
 			buildPhases = (
 				FD07CA2328247EEA00BBCDFF /* Sources */,
 				FD07CA2428247EEA00BBCDFF /* Frameworks */,
@@ -212,9 +191,9 @@
 			);
 			dependencies = (
 			);
-			name = "WatchTaskListSample Watch App";
+			name = "Prodo Watch App";
 			productName = WatchTaskListSample;
-			productReference = FD07CA2728247EEA00BBCDFF /* WatchTaskListSample Watch App.app */;
+			productReference = FD07CA2728247EEA00BBCDFF /* Prodo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -236,7 +215,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FD07CA1E28247EE900BBCDFF /* Build configuration list for PBXProject "WatchTaskListSample" */;
+			buildConfigurationList = FD07CA1E28247EE900BBCDFF /* Build configuration list for PBXProject "Prodo" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -249,8 +228,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FD07CA2028247EEA00BBCDFF /* WatchTaskListSample */,
-				FD07CA2628247EEA00BBCDFF /* WatchTaskListSample Watch App */,
+				FD07CA2028247EEA00BBCDFF /* Prodo */,
+				FD07CA2628247EEA00BBCDFF /* Prodo Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -302,7 +281,7 @@
 /* Begin PBXTargetDependency section */
 		FD07CA2A28247EEA00BBCDFF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FD07CA2628247EEA00BBCDFF /* WatchTaskListSample Watch App */;
+			target = FD07CA2628247EEA00BBCDFF /* Prodo Watch App */;
 			targetProxy = FD07CA2928247EEA00BBCDFF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -310,7 +289,6 @@
 /* Begin XCBuildConfiguration section */
 		FD07CA3C28247EEE00BBCDFF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5CE92A0A0E1235C7F094389 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -369,7 +347,6 @@
 		};
 		FD07CA3D28247EEE00BBCDFF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5CE92A0A0E1235C7F094389 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -421,7 +398,6 @@
 		};
 		FD07CA3F28247EEE00BBCDFF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5CE92A0A0E1235C7F094389 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
@@ -430,11 +406,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WatchTaskListSample/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8BBYKKS8QL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "";
-				INFOPLIST_KEY_CFBundleDisplayName = "Watch Task List Sample";
 				INFOPLIST_KEY_CLKComplicationPrincipalClass = WatchTaskListSample.ComplicationController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
@@ -443,8 +418,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.WatchTaskListSample${SAMPLE_CODE_DISAMBIGUATOR}.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IvanAbramov.Prodo.watch;
+				PRODUCT_NAME = Prodo;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -457,7 +432,6 @@
 		};
 		FD07CA4028247EEE00BBCDFF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5CE92A0A0E1235C7F094389 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
@@ -466,11 +440,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WatchTaskListSample/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8BBYKKS8QL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "";
-				INFOPLIST_KEY_CFBundleDisplayName = "Watch Task List Sample";
 				INFOPLIST_KEY_CLKComplicationPrincipalClass = WatchTaskListSample.ComplicationController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
@@ -479,8 +452,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.WatchTaskListSample${SAMPLE_CODE_DISAMBIGUATOR}.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IvanAbramov.Prodo.watch;
+				PRODUCT_NAME = Prodo;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -494,15 +467,14 @@
 		};
 		FD07CA4328247EEE00BBCDFF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5CE92A0A0E1235C7F094389 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8BBYKKS8QL;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.WatchTaskListSample${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IvanAbramov.Prodo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -512,15 +484,14 @@
 		};
 		FD07CA4428247EEE00BBCDFF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5CE92A0A0E1235C7F094389 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8BBYKKS8QL;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.WatchTaskListSample${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IvanAbramov.Prodo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -532,7 +503,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FD07CA1E28247EE900BBCDFF /* Build configuration list for PBXProject "WatchTaskListSample" */ = {
+		FD07CA1E28247EE900BBCDFF /* Build configuration list for PBXProject "Prodo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FD07CA3C28247EEE00BBCDFF /* Debug */,
@@ -541,7 +512,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD07CA3E28247EEE00BBCDFF /* Build configuration list for PBXNativeTarget "WatchTaskListSample Watch App" */ = {
+		FD07CA3E28247EEE00BBCDFF /* Build configuration list for PBXNativeTarget "Prodo Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FD07CA3F28247EEE00BBCDFF /* Debug */,
@@ -550,7 +521,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD07CA4228247EEE00BBCDFF /* Build configuration list for PBXNativeTarget "WatchTaskListSample" */ = {
+		FD07CA4228247EEE00BBCDFF /* Build configuration list for PBXNativeTarget "Prodo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FD07CA4328247EEE00BBCDFF /* Debug */,

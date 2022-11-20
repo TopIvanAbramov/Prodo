@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FD07CA2628247EEA00BBCDFF"
-               BuildableName = "WatchTaskListSample Watch App.app"
-               BlueprintName = "WatchTaskListSample Watch App"
-               ReferencedContainer = "container:WatchTaskListSample.xcodeproj">
+               BuildableName = "Prodo Watch App.app"
+               BlueprintName = "Prodo Watch App"
+               ReferencedContainer = "container:Prodo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FD07CA2028247EEA00BBCDFF"
-               BuildableName = "WatchTaskListSample.app"
-               BlueprintName = "WatchTaskListSample"
-               ReferencedContainer = "container:WatchTaskListSample.xcodeproj">
+               BuildableName = "Prodo.app"
+               BlueprintName = "Prodo"
+               ReferencedContainer = "container:Prodo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -60,9 +60,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FD07CA2628247EEA00BBCDFF"
-            BuildableName = "WatchTaskListSample Watch App.app"
-            BlueprintName = "WatchTaskListSample Watch App"
-            ReferencedContainer = "container:WatchTaskListSample.xcodeproj">
+            BuildableName = "Prodo.app"
+            BlueprintName = "Prodo Watch App"
+            ReferencedContainer = "container:Prodo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -78,9 +78,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FD07CA2628247EEA00BBCDFF"
-            BuildableName = "WatchTaskListSample Watch App.app"
-            BlueprintName = "WatchTaskListSample Watch App"
-            ReferencedContainer = "container:WatchTaskListSample.xcodeproj">
+            BuildableName = "Prodo.app"
+            BlueprintName = "Prodo Watch App"
+            ReferencedContainer = "container:Prodo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
